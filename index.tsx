@@ -583,11 +583,11 @@ User Input:
                     <div className="flex items-center gap-3">
                         <button 
                             onClick={() => {
-                                window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(window.location.href)}`, '_blank');
+                                window.open(`https://www.linkedin.com/in/yadavritik/?url=${encodeURIComponent(window.location.href)}`, '_blank');
                             }}
                             className="text-xs font-medium text-blue-400 border border-blue-500/30 px-3 py-1 rounded hover:bg-blue-500/10 transition flex items-center gap-1"
                         >
-                            <IconLinkedin /> Share
+                            <IconLinkedin /> Connect
                         </button>
                         <div className="text-xs font-medium text-slate-500 border border-slate-800 px-2 py-1 rounded hidden md:block">
                             Universal Navigation Engine
