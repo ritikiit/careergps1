@@ -643,7 +643,7 @@ User Input:
                                     />
                                 </div>
                                 <div className="space-y-2">
-                                    <label className="text-sm font-medium text-slate-300">Current / Target Industry</label>
+                                    <label className="text-sm font-medium text-slate-300">Current</label>
                                     <input 
                                         type="text"
                                         required
