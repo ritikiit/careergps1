@@ -620,11 +620,11 @@ User Input:
                         <form onSubmit={handleSubmit} className="space-y-6">
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div className="space-y-2">
-                                    <label className="text-sm font-medium text-slate-300">Current Role / Status</label>
+                                    <label className="text-sm font-medium text-slate-300">Current Role</label>
                                     <input 
                                         type="text" 
                                         required
-                                        placeholder="e.g. Student, Senior Product Manager, Retired"
+                                        placeholder="Designation-Role (e.g. GM-Head of Strategy)"
                                         className="w-full bg-slate-950 border border-slate-800 rounded-lg px-4 py-3 text-white focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition"
                                         value={role}
                                         onChange={(e) => setRole(e.target.value)}
