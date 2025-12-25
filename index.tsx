@@ -609,8 +609,7 @@ User Input:
                             <span className="text-blue-500">Career Trajectory</span>
                         </h2>
                         <p className="text-lg text-slate-400 max-w-2xl mx-auto">
-                            A high-stakes decision intelligence system. From student to retirement. 
-                            Brutally honest, data-driven career strategy in seconds.
+                            An intelligent decision system that provides data-backed career direction in seconds.
                         </p>
                     </div>
                 )}
